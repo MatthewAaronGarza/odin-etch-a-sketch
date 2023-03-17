@@ -16,4 +16,15 @@
 
 #grid-container {
     display: grid;
+    gap: 1px;
+    border: solid black 1px;
+    grid-template-columns: repeat(16, 1fr);
+    max-width: 600px; /* set a specific max-width */
+    margin: 0 auto; /* center the container horizontally */
+}
+
+.grid-cell {
+    background-color: white;
+    border: solid black 1px;
+    height: 20px;
 }

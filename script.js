@@ -10,5 +10,5 @@ for (let i = 0; i < 16 * 16; i++) {
     cell.style.backgroundColor = 'black';
   });
   // Add the cell to the grid container
-  container.appendChild(cell);
+  gridContainer.appendChild(cell);
 }
