@@ -3,3 +3,17 @@
 } */
 
 
+.class {
+    display: flex;
+}
+
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid-container {
+    display: grid;
+}
